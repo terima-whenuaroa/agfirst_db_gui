@@ -4,9 +4,6 @@ import Counter from "./counter";
 class Counters extends Component {
   state = {
     counters: [{ id: 1, value: 4 }],
-    counters: [{ id: 2, value: 4 }],
-    counters: [{ id: 3, value: 4 }],
-    counters: [{ id: 4, value: 4 }],
   };
 
   handleReset = () => {
